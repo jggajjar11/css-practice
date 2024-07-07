@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>CSS-Responsive-Layout</title>
+</head>
+<body>
+    <!-- Header Section start -->
+    <header>
+        <div class="container flex align-center gap-60">
+          <nav class="navbar flex align-center col-12">
+            <div class="logo col-2">
+              <a href="#" title="Home">
+                <img
+                  src="./assets/images/logo.png"
+                  alt="logo"
+                  width="202"
+                  height="54"
+                />
+              </a>
+            </div>
+  
+            <ul
+              class="flex align-center justify-start gap-60 col-6 list-style-none"
+            >
+              <li>
+                <a href="#" title="Home" class="active txt-primary">Home</a>
+              </li>
+              <li>
+                <a href="#" title="Html" class="text-decoration-none">Html</a>
+              </li>
+              <li>
+                <a href="#" title="Css" class="text-decoration-none">Css</a>
+              </li>
+              <li>
+                <a href="#" title="Layout" class="text-decoration-none">Layout</a>
+              </li>
+              <li>
+                <a href="#" title="Bootstrap" class="text-decoration-none"
+                  >Bootstrap</a
+                >
+              </li>
+            </ul>
+  
+            <div class="search col-4 position-relative">
+              <input
+                type="text"
+                name="search"
+                class="input-search serach-button-border border-radius-18"
+                placeholder="Enter keyword, Item # or Part #"
+              />
+              <i class="fa fa-search position-absolute" aria-hidden="true"></i>
+            </div>
+          </nav>
+        </div>
+      </header>
+    <!-- Header Section end -->
+
+    <!-- Banner Section Start -->
+    <section class="banner bg-banner">
+        <div class="container">
+          <div class="flex gap-47 flex-dir-col-md-rev align-center-sm ">
+            <div class="txt-wrapper w-65 w-100-sm">
+              <h1 class="font-48 font-weight-700 mb-50 txt-primary">
+                Lorem ipsum
+              </h1>
+              <p class="font-20 line-height-40">
+                <b>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,</b>
+                sed do eiusmod <sub>tempor incididunt</sub> ut labore
+                <sup>et dolore</sup> magna aliqua.
+                <i
+                  >Ut enim ad minim veniam, quis nostrud exercitation ollamco
+                  laboris nisi ut aliquip ex ea commodo</i
+                >
+                consequat. Duis aute irure dolor in <del>reprehenderit</del> in
+                <u>voluptate velit</u> esse cillum dolore eu fugiat
+                <small>nolla pariatur.</small> Excepteur sint occaecat cupidatat
+                non proident, sunt in colpa qui officia deserunt mollit anim id
+                <mark class="bg-secondary">est laborum.</mark>"
+              </p>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="./assets/images/img-1.jpg"
+                alt="img-1"
+                width="480"
+                height="280"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Banner Section End -->
+  
+      <!-- List Section Start -->
+      <section class="list-section">
+        <div class="container">
+          <h2 class="font-40 font-weight-700 txt-center mb-50 txt-primary">
+            Lorem ipsum
+          </h2>
+          <div class="main-list flex justify-center gap-30 flex-dir-col-lg">
+            <div class="col-4 border-list-primary listbox-shadow padding-listbox">
+              <ul>
+                <li class="list-heading">
+                  Lorem ipsum
+                  <ol class="list-style-number pt-19">
+                    <li class="txt-secondary font-weight-700 pb-40">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod
+                    </li>
+                    <li class="txt-secondary font-weight-700">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod
+                    </li>
+                  </ol>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4 border-list-skyblue listbox-shadow padding-listbox">
+              <ul>
+                <li class="list-heading">
+                  Lorem ipsum
+                  <ol class="list-style-alphabatical pt-19">
+                    <li class="txt-secondary pb-40">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod
+                    </li>
+                    <li class="txt-secondary">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod
+                    </li>
+                  </ol>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4 border-list-yellow listbox-shadow padding-listbox">
+              <ul>
+                <li class="list-heading">
+                  Lorem ipsum
+                  <ol class="list-style-roman pt-19">
+                    <li class="txt-blue pb-40">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod
+                    </li>
+                    <li class="txt-blue">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod
+                    </li>
+                  </ol>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- List Section End -->
+  
+      <!-- Image-text Section Start -->
+      <section class="img-text pt-0">
+        <div class="img-text-container">
+          <h2 class="font-40 txt-center mb-50 font-weight-700 txt-primary">
+            Lorem ipsum
+          </h2>
+          <div class="flex col-12 flex-dir-col-lg">
+            <div class="col-6 image">
+              <img
+                src="./assets/images/img-2.jpg"
+                alt="img-1"
+                width="735"
+                height="354"
+                class="col-12"
+              />
+            </div>
+            <div class="col-6 txt-content bg-banner p-50">
+              <h3 class="font-32 font-weight-700 pb-19 txt-blue">
+                Lorem ipsum
+              </h3>
+              <p class="font-18 line-height-30 pb-19">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat
+                volutpat.
+              </p>
+              <p class="font-18 line-height-30 pb-19">
+                sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+             
+              <div class="pt-19">
+                <a
+                href="#"
+                title="view more"
+                class="btn-view-more text-decoration-none txt-white font-18 font-weight-700"
+                >View More</a>
+               </div> 
+            </div>
+          </div>
+          <div class="flex col-12 flex-dir-col-rev-lg">
+            <div class="col-6 txt-content bg-banner p-50">
+              <h3 class="font-32 font-weight-700 pb-19 txt-blue">Lorem ipsum</h3>
+              <p class="font-18 line-height-30 pb-19">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat
+                volutpat.
+              </p>
+              <p class="font-18 line-height-30 pb-19">
+                sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+              
+              <div class="pt-19">
+                <a
+                href="#"
+                title="view more"
+                class="btn-view-more text-decoration-none txt-white font-18 font-weight-700"
+                >View More</a>
+              </div>
+
+            </div>
+            <div class="col-6 image">
+              <img
+                src="./assets/images/img-3.jpg"
+                alt="img-2"
+                width="735"
+                height="354"
+                class="col-12"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Image-text Section End -->
+  
+    <!-- table section start -->
+    <section class="banner-tbl">
+        <div class="container">
+            <h1 class="font-48 font-weight-700 txt-primary txt-center pb-50">Lorem ipsum</h1>
+            <p class="w-38 mx-auto txt-center line-height-30 font-weight-700 pb-44">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
+            
+            <div class="flex col-12 gap-30 flex-dir-col-md">
+                <div class="col-6">
+                    <table class="col-12">
+                        <tbody>
+                            <tr class="bg-blue">
+                                <th class="font-22 txt-white font-weight-700">Rank</th>
+                                <th class="font-22 txt-white font-weight-700">Name</th>
+                                <th class="font-22 txt-white font-weight-700">Points</th>
+                                <th class="font-22 txt-white font-weight-700">Team</th>
+                            </tr>
+                            <tr>
+                                <th class="font-22 font-weight-700 p-21">1</th>
+                                <th class="p-21">Lorem ipsum</th>
+                                <th class="p-21 font-22 font-weight-700">66,500</th>
+                                <th class="p-21">Decode</th>
+                            </tr>
+                            <tr class="bg-gray">
+                                <th class="p-19 font-22 font-weight-700">2</th>
+                                <th class="p-19">Lorem ipsum dolor</th>
+                                <th class="p-19 font-22 font-weight-700">55,500</th>
+                                <th class="p-19">Student</th>
+                            </tr>
+                            <tr>
+                                <th class="font-22 font-weight-700 p-21">3</th>
+                                <th class="p-21">Lorem ipsum quia</th>
+                                <th class="p-21 font-22 font-weight-700">79,500</th>
+                                <th class="p-21">Decode</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-6">
+                    <table class="col-12">
+                        <tbody>
+                            <tr class="bg-blue">
+                                <th class="font-22 txt-white font-weight-700">Rank</th>
+                                <th class="font-22 txt-white font-weight-700">Name</th>
+                                <th class="font-22 txt-white font-weight-700">Points</th>
+                                <th class="font-22 txt-white font-weight-700">Team</th>
+                            </tr>
+                            <tr>
+                                <th class="font-22 font-weight-700 p-21">4</th>
+                                <th class="p-21">Lorem ipsum</th>
+                                <th class="p-21 font-22 font-weight-700">99,500</th>
+                                <th class="p-21">Decode</th>
+                            </tr>
+                            <tr class="bg-gray">
+                                <th class="p-19 font-22 font-weight-700">5</th>
+                                <th class="p-19">Lorem ipsum dolor</th>
+                                <th class="p-19 font-22 font-weight-700">66,500</th>
+                                <th class="p-19">Student</th>
+                            </tr>
+                            <tr>
+                                <th class="font-22 font-weight-700 p-21">6</th>
+                                <th class="p-21">Lorem ipsum quia</th>
+                                <th class="p-21 font-22 font-weight-700">80,500</th>
+                                <th class="p-21">Student</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="txt-wrapper w-65 w-100-sm">
+                <h1 class="font-48 font-weight-700 mb-50 txt-primary">
+                  Lorem ipsum
+                </h1>
+                <p class="font-20 line-height-40">
+                  <b>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,</b>
+                  sed do eiusmod <sub>tempor incididunt</sub> ut labore
+                  <sup>et dolore</sup> magna aliqua.
+                  <i
+                    >Ut enim ad minim veniam, quis nostrud exercitation ollamco
+                    laboris nisi ut aliquip ex ea commodo</i
+                  >
+                  consequat. Duis aute irure dolor in <del>reprehenderit</del> in
+                  <u>voluptate velit</u> esse cillum dolore eu fugiat
+                  <small>nolla pariatur.</small> Excepteur sint occaecat cupidatat
+                  non proident, sunt in colpa qui officia deserunt mollit anim id
+                  <mark class="bg-secondary">est laborum.</mark>"
+                </p>
+            </div>    
+        </div>
+      </section>
+    <!-- table section end -->
+
+    <!-- Section  -->
+      <!-- Footer Start -->
+      <footer class="bg-banner">
+        <div class="py-32">
+          <p class="font-weight-700 txt-center pb-19">Radixweb</p>
+          <p class="font-18 txt-center">
+            Ekyarth, B/H Nirma University, chharodi, Ahmedabad-382481, India.
+          </p>
+        </div>
+      </footer>
+      <!-- Footer End -->
+    </body>
+  </html>
+  
+</body>
+</html>
